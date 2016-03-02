@@ -54,6 +54,7 @@ Custom Styles
 */
 
 body {
+   background-color: #293f50;
 	color: #888;
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -127,6 +128,18 @@ body {
  .group {
  	clear: both;
  	*zoom: 1;
+ }
+
+ /*
+ =================
+ Rows
+ =================
+ */
+
+ .row {
+   background-color: #fff;
+   min-width: 960px;
+   padding: 66px 0 44px 0;
  }
 
  /*
@@ -205,11 +218,20 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	margin: 0;
+   letter-spacing: .5px;
+   text-transform: uppercase;
+   color: #fff;
+   cursor: pointer;
 }
 
 .btn-alt {
-	border: 1px solid #dfe2e5;
+	border: 1px solid #fff;
 	padding: 10px 30px;
+}
+
+.btn-alt:hover {
+   background-color: #fff;
+   color: #648880;
 }
 
 /*
@@ -222,6 +244,7 @@ Home
 	padding: 22px 80px 66px 80px;
 	line-height: 44px;
 	text-align: center;
+   color: #fff;
 }
 
 .hero h2 {
@@ -241,6 +264,17 @@ Navigation
 .nav {
 	text-align: right;
 }
+
+.primary-header a,
+.primary-footer a {
+   color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+   color: #648880;
+}
+
 
 /*
 =================
