@@ -59,6 +59,13 @@ body {
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.teaser img {
+	border-radius: 5px;
+	margin-bottom: 22px;
+	display: block;
+	max-width: 100%;
+}
+
 .teaser a:hover h3 {
 	color: #a9b2b9;
 }
@@ -374,5 +381,12 @@ Speakers
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 88px;
-	padding: 22px 0;
+	padding-bottom: 22px;
+}
+
+.speaker-info img {
+	border-radius: 50%;
+	height: 130px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
 }
